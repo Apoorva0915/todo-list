@@ -1,20 +1,33 @@
-
+body{
+    background: linear-gradient(to bottom right, #000046, #1CB5E0);
+    height: 100vh;
+}
 .header{
     padding: 0px 60px;
     border-bottom: 1px solid gray;
+    color: RGB(22, 143, 192);
 }
 .header h1{
-    font-size: 24px;
+    font-size: 55px;
     font-weight: 400;
 }
 .main{
     padding: 0px 60px;
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    color:rgb(189, 183, 183);
+    font-weight: 800;
+    font-family:cursive;
 }
 .todo{
     display: flex;
     align-items: center;
     margin-bottom: 10px;
     gap: 5px;
+    justify-content: center;
+    font-size: 25px;
 }
 .cut{
     text-decoration: line-through;
